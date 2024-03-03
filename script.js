@@ -72,8 +72,3 @@ async function fetchBookReviews(title) {
         }, 1000); // Simulating asynchronous behavior
     });
 }
-    } catch (error) {
-        console.error('Error fetching books:', error);
-        alert('An error occurred while fetching books. Please try again later.');
-    }
-}
